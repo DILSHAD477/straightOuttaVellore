@@ -1,5 +1,3 @@
-Sure, here's a fun GitHub README in Markdown for your project:
-
 # 🚀 Traffic Counting with YOLOWorld 🚘
 
 Welcome to the Traffic Counting with YOLOWorld project! This project uses the powerful YOLOWorld model from Ultralytics to detect and count various objects in images and videos, with a focus on traffic-related objects like cars, bikes, trucks, and more.
