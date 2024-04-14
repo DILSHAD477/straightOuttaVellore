@@ -64,7 +64,7 @@ Clone the repository and install the required packages:
 
 ```git clone https://github.com/Jimmy-7664/STD_MAE
 cd STD_MAE
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 You can now run the STD-MAE codes.
 
