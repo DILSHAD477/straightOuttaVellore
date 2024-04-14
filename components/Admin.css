@@ -135,7 +135,11 @@ body {
   background-image: linear-gradient(to bottom, #ffffff, #d9c6ef,); /* Smooth gradient background */
   color:white; /* Text color on hover */
 }
-
+.landp{
+  display:flex;
+  flex-direction:row;
+  width:500px;
+}
 .typeIn{
     position: relative;
   
@@ -147,7 +151,7 @@ body {
 }
 input {
    font-size: 30px;
-  height:60px;
+  
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -166,30 +170,52 @@ input:focus {
   font-weight:200;
   color:rgb(27, 0, 41)
 } */
-.input_field{
+.input_field1{
   margin-top: 20px;
   margin-left: 5px;
   margin-bottom: 30px ;
   opacity: 0.7;
    font-size:19px;
-  height:50px;
+  height:43px;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   flex:1;
-   width: 400px;
+  width:8px;
   padding: 5px;
   border: 2.9px solid rgba(109, 109, 109, 0.7);
   border-right: none;
-  border-radius: 7px 0px 0px 7px;
+  border-radius: 7px 7px 7px 7px;
   
 }
+.input_field2{
+  
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 30px ;
+  opacity: 0.7;
+   font-size:19px;
+  height:43px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  flex:1;
+   width: 158px;
+  padding: 5px;
+  border: 2.9px solid rgba(109, 109, 109, 0.7);
+  border-right: none;
+  border-radius: 7px 7px 7px 7px;
+  
+
+}
 .send{
-    position: relative;
+  position: absolute;
+  right:0px;
+  margin-left:400px;
   font-size:19px;
   position:absolute;
   width:75px;
-  height:50px;
+  height:43px;
   background-color: #5428bb;
   color: white;
   border: none;
@@ -209,15 +235,17 @@ input:focus {
   position:relative;
   margin:20px 5px 5px ;
   padding:0px;
-  color:#2e2e2e;
+  color:#232323;
   font-size:1.4rem;
   margin-top:5px;
 }
 .dropdown-menu{
+  width:500px;
   position: absolute;
-  top:70px;
+  top:63px;
   z-index:100;
   margin-left:5px;
+  
 }
 .dropdown-item {
   color:#2e2e2e;
@@ -228,7 +256,7 @@ input:focus {
   -webkit-appearance: none;
   -moz-appearance: none;
   flex: 1;
-  width:397px;
+  width:px;
   padding: 5px;
   margin :3px;
   background-color: #e0d1eb;

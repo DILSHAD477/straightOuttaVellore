@@ -1,5 +1,8 @@
 /* Navbar.module.css */
-
+.container{
+  height:1000px;
+  width:2000px
+}
 .navbar {
   background-color: #fefdff; /* white background */
   padding: 1rem 0;

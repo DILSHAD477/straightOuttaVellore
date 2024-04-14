@@ -1,17 +1,98 @@
+/* Style for the container to occupy full viewport height */
+.container {
+  top:0px;
+  background:white;
+  min-height: 100vh; /* Ensure container takes at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  padding-top: 150px; /* Add some padding at the top */
+}
+
+/* Style for the chart containers */
+.chart-container {
+  top:200px;
+ 
+  height:1000px;
+  width: 400px; /* Reduce width of charts */
+  margin: 10px; /* Add some margin between charts */
+}
+
+/* Style for the row containing charts */
+.row {
+  margin-top:200px;
+
+  display: flex;
+  justify-content: center; /* Center charts horizontally */
+  margin-top: auto; /* Push row to the bottom of the container */
+}
+.header{
+  padding-top:100px;
+  background-color:white;
+  color:rgb(55, 0, 110);
+  font-size:30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:500;
+}
 /* Style for the heading */
 .heading {
   text-align: center;
   margin-bottom: 20px;
 }
+/* Navbar.module.css */
+.nav{
 
-/* Style for the chart container */
-.chart-container {
-  max-width: 500px;
-  margin: 0 auto;
+}
+.navbar {
+  top:0px;
+  background-color: #fefdff; /* white background */
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   /* subtle box shadow */
 }
 
-.container{
-   height:1000px;
-   width:2000px;
+.navbarContainer {
+  max-width: 1200px; /* maximum width for better responsiveness */
+  margin: 0 auto; /* center the content */
+}
 
+.navbarLinks {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 400px;
+}
+
+.navbarLinks > :global(a) {
+  margin: 0 1.5rem;
+  font-weight: 400px;
+}
+
+.navbarLinks > :global(a) {
+  color: #3b0063; /* dark gray text color */
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbarLinks > :global(a):hover {
+  color: #7a17a4; /* text color on hover */
+  position: relative;
+}
+
+.navbarLinks > :global(a):hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Underline height */
+  background-color: #9745bb; /* Underline color */
 }
