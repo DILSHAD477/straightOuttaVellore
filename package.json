@@ -13,13 +13,24 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@tremor/react": "^3.15.1",
+    "apexcharts": "^3.48.0",
+    "framer-motion": "^11.0.28",
     "i": "^0.3.7",
     "leaflet": "^1.9.4",
     "leaflet-control-geocoder": "^2.4.0",
     "leaflet-routing-machine": "^3.2.12",
     "next": "14.1.4",
     "react": "^18",
+    "react-apexcharts": "^1.4.1",
     "react-dom": "^18",
     "react-leaflet": "^4.2.1"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
   }
 }

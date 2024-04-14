@@ -27,6 +27,14 @@ body{
     max-width: 100%;
     min-height: 480px;
 }
+.form-container h1{
+    color:black;
+    margin:31px;
+}
+
+.enter{
+    padding:10px;
+}
 
 .container p{
     font-size: 14px;

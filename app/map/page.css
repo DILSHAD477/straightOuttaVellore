@@ -1,0 +1,51 @@
+/* Navbar.module.css */
+
+.navbar {
+  background-color: #fefdff; /* white background */
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   /* subtle box shadow */
+}
+
+.navbarContainer {
+  max-width: 1200px; /* maximum width for better responsiveness */
+  margin: 0 auto; /* center the content */
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 400px;
+}
+
+.navbarLinks > :global(a) {
+  margin: 0 1.5rem;
+  font-weight: 400px;
+}
+
+.navbarLinks > :global(a) {
+  color: #3b0063; /* dark gray text color */
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbarLinks > :global(a):hover {
+  color: #7a17a4; /* text color on hover */
+  position: relative;
+}
+
+.navbarLinks > :global(a):hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Underline height */
+  background-color: #9745bb; /* Underline color */
+}
