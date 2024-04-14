@@ -36,13 +36,35 @@ You can install SUMO-RL via pip:
 
 Stable release version:
 ```bash
-pip install sumo-rl
-
+pip install sumo-rl```
 
 Alternatively, you can install the latest (unreleased) version from GitHub:
 
-git clone https://github.com/LucasAlegre/sumo-rl
+```git clone https://github.com/LucasAlegre/sumo-rl
 cd sumo-rl
 pip install -e .
+```
 
+
+### Running RESCO Codes
+
+To run RESCO codes, you need to clone the repository from GitHub:
+
+```git clone https://github.com/Pi-Star-Lab/RESCO```
+
+Before running, execute python setup.py install.
+
+### Running STD-MAE Codes
+
+STD-MAE codes depend on the repository hosted at:
+
+https://github.com/Jimmy-7664/STD_MAE
+
+Clone the repository and install the required packages:
+
+```git clone https://github.com/Jimmy-7664/STD_MAE
+cd STD_MAE
+pip install -r requirements.txt```
+
+You can now run the STD-MAE codes.
 
