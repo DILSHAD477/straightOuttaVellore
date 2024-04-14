@@ -33,10 +33,6 @@ We welcome contributions from the community! If you'd like to contribute to this
 4. Push your changes to your forked repository
 5. Create a pull request, and we'll review your changes as soon as possible!
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics) for their incredible YOLOv8 model and library
@@ -44,5 +40,3 @@ This project is licensed under the [MIT License](LICENSE).
 - [NumPy](https://numpy.org/) for numerical computing
 
 ---
-
-Made with ❤️ and a pinch of 🚗 by [Your Name](https://github.com/your-username)
