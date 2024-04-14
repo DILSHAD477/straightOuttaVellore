@@ -23,7 +23,7 @@ Welcome to the Traffic Counting with YOLOWorld project! This project uses the po
 
 Want to see the magic in action? Check out this demo video showcasing the object detection capabilities of this project:
 
-[![Traffic Counting Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+![Traffic Counting Demo](YOLO.jpeg)
 
 ## 🤖 Contributing
 
