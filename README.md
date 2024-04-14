@@ -1,3 +1,8 @@
+The GitHub repo contains all of the code that we have worked on so far including all the code to the websites and the underlying backend code as well which can be run by the users. Please ensure that all the dependencies are installed before attempting to run the files.
+
+The folder Signal Optimization contains the network of Roads of bangalore created using SUMO and open street maps for training the neural network for traffic optimization in bangalore road conditions.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
