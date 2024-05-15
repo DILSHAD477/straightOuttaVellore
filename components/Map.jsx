@@ -1,16 +1,16 @@
 "use client"
-
+import "./Map.css";
 const Map = () => {
   return (
-    <div className="map">
-    <iframe
-      src="http://127.0.0.1:5500/components/test.html"
-      
-      width="100%"
-      height="100vh"
-      allowFullScreen
-    /></div>
+    <div className="nav">
+      <div className="map_view">
+      <iframe src="/test.html" width="100%">
+        map
+      </iframe>
+    </div>
+    </div>
+    
   )
 }
 
-export default Map;
+export default Map

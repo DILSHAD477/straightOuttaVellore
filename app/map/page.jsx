@@ -1,14 +1,15 @@
+"use client"
+import Map from "@/components/Map";
 import Navbar from "@/components/Navbar";
-import "./page.css";
-const page = () => {
+
+const Third3rd = () =>{
   return (
-    <div className="container">
-      <div><Navbar />
-      
-        <iframe src="http://127.0.0.1:5500/ksp/components/test.html" title="W3Schools Free Online Web Tutorials"></iframe>
-      </div>
-    </div>
-  )
+    <main>
+        <Navbar />
+        <Map />
+    </main>
+  );
 }
 
-export default page
+
+export default Third3rd ;

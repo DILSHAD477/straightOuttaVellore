@@ -184,7 +184,7 @@ input:focus {
   width:8px;
   padding: 5px;
   border: 2.9px solid rgba(109, 109, 109, 0.7);
-  border-right: none;
+  
   border-radius: 7px 7px 7px 7px;
   
 }

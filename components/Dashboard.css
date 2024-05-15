@@ -1,5 +1,6 @@
 /* Style for the container to occupy full viewport height */
 .container {
+  width:100%;
   top:0px;
   background:white;
   min-height: 100vh; /* Ensure container takes at least the full viewport height */
